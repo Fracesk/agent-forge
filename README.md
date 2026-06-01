@@ -20,6 +20,7 @@
   <br />
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License" /></a>
   <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/Fracesk/agent-forge/actions"><img src="https://img.shields.io/github/actions/workflow/status/Fracesk/agent-forge/ci.yml?branch=master&style=flat-square&label=CI" alt="CI" /></a>
 </p>
 
 ---
@@ -41,12 +42,14 @@
 
 ## 🖼️ Screenshots
 
-> *(Coming soon — add screenshots of the dashboard, chat interface, agent creation, and memory browser)*
-
-| | | |
-|:---:|:---:|:---:|
-| Dashboard | Chat Interface | Agent Builder |
-| Memory Browser | Conversation List | Settings |
+| | |
+|:---:|:---:|
+| **Login** — Warm amber theme with animated particle network | **Dashboard** — Agent list with Framer Motion stagger animation |
+| ![Login](public/screenshots/01-login.png) | ![Dashboard](public/screenshots/02-dashboard.png) |
+| **Agent Form** — System prompt, model config, tool selection | **Settings** — Profile editing, theme switching |
+| ![Agent Form](public/screenshots/03-agent-form.png) | ![Settings](public/screenshots/04-settings.png) |
+| **ComingSoon** — Polished placeholder component | **Chat** — Welcome screen with suggestion prompts |
+| ![ComingSoon](public/screenshots/05-coming-soon.png) | ![Chat](public/screenshots/06-chat.png) |
 
 ---
 
