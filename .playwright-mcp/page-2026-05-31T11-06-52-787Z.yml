@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - button "Toggle menu" [ref=e6]:
+        - img [ref=e7]
+      - generic [ref=e69]:
+        - button "Toggle theme" [ref=e70]:
+          - img [ref=e71]
+        - button "J" [ref=e74]:
+          - generic [ref=e75]: J
+    - main [ref=e8]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "Agents" [level=1] [ref=e95]
+            - paragraph [ref=e96]: Create and manage your AI agents
+          - link "New Agent" [ref=e98] [cursor=pointer]:
+            - /url: /agents/new
+            - img [ref=e99]
+            - text: New Agent
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - link "测试助手 qwen3.7-max 0 chats 0 memories Ready" [ref=e103] [cursor=pointer]:
+              - /url: /agents/cmptod4nm00099kuuu0wpbxdv
+              - generic [ref=e105]:
+                - img [ref=e108]
+                - generic [ref=e113]:
+                  - heading "测试助手" [level=3] [ref=e114]
+                  - paragraph [ref=e115]: qwen3.7-max
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - img [ref=e118]
+                  - generic [ref=e120]: 0 chats
+                - generic [ref=e121]:
+                  - img [ref=e122]
+                  - generic [ref=e130]: 0 memories
+                - generic [ref=e131]:
+                  - img [ref=e132]
+                  - generic [ref=e135]: Ready
+            - generic [ref=e136]:
+              - button "Chat" [ref=e137]:
+                - img [ref=e138]
+              - button [ref=e141]:
+                - img [ref=e142]
+          - generic [ref=e146]:
+            - link "猫猫仙人 qwen3.7-max 每句话末尾都会有喵，但个性清冷 9 chats 0 memories Ready" [ref=e148] [cursor=pointer]:
+              - /url: /agents/cmptjf3u20003lguuckxzb1h8
+              - generic [ref=e150]:
+                - img [ref=e153]
+                - generic [ref=e158]:
+                  - heading "猫猫仙人" [level=3] [ref=e159]
+                  - paragraph [ref=e160]: qwen3.7-max
+              - paragraph [ref=e161]: 每句话末尾都会有喵，但个性清冷
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - img [ref=e164]
+                  - generic [ref=e166]: 9 chats
+                - generic [ref=e167]:
+                  - img [ref=e168]
+                  - generic [ref=e176]: 0 memories
+                - generic [ref=e177]:
+                  - img [ref=e178]
+                  - generic [ref=e181]: Ready
+            - generic [ref=e182]:
+              - button "Chat" [ref=e183]:
+                - img [ref=e184]
+              - button [ref=e187]:
+                - img [ref=e188]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e65] [cursor=pointer]:
+    - img [ref=e66]
+  - alert [ref=e91]

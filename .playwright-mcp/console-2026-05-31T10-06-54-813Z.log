@@ -1,0 +1,64 @@
+[     621ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[     849ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[     865ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqG40F9Jf2j0.woff2:0
+[    1076ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[    1083ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[    1291ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[    1393ms] [LOG] [Fast Refresh] done in 215ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   16476ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   16509ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   20937ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   20944ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   26248ms] [ERROR] In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/agents/cm..." tree={[...]} params={{agentId:"c..."}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(dashboard...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function AgentChatPage} serverProvidedParams={{...}}>
+                <AgentChatPage params={Promise} searchParams={Promise}>
+                  <div className="flex h-[ca...">
+                    <div className="hidden w-7...">
+                      <ConversationList agentId="cmptjf3u20...">
+                        <div className="flex h-ful...">
+                          <div>
+                          <div className="flex-1 ove...">
+                            <div className="space-y-0....">
+>                             <button
+>                               onClick={function onClick}
+>                               className="flex w-full items-start gap-3 rounded-lg px-3 py-2.5 text-left text-sm tran..."
+>                             >
+                                <MessageSquare>
+                                <div>
+>                               <button
+>                                 onClick={function onClick}
+>                                 className="shrink-0 rounded p-1 text-muted-foreground hover:text-destructive hover:b..."
+>                               >
+                              ...
+                    ...
+            ...
+          ...
+ @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:3318
+[   33101ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   33305ms] [LOG] [Fast Refresh] done in 307ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   41927ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   41989ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   45394ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   45483ms] [LOG] [Fast Refresh] done in 190ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   53558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   53614ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   78657ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   78726ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   89484ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[   89533ms] [LOG] [Fast Refresh] done in 153ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  104742ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  105576ms] [LOG] [Fast Refresh] done in 898ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  105860ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  106006ms] [LOG] [Fast Refresh] done in 251ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  106014ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.gstatic.com/s/dmsans/v15/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqG40F9Jf2j0.woff2:0
+[  106117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477
+[  106787ms] [LOG] [Fast Refresh] done in 777ms @ http://localhost:3000/_next/static/chunks/06-__next_dist_131cx~u._.js:2477

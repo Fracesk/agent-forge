@@ -1,0 +1,109 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img [ref=e7]
+        - generic [ref=e8]:
+          - img [ref=e9]
+          - generic [ref=e11]: Search agents, tasks...
+          - generic [ref=e12]: ⌘K
+      - generic [ref=e35]:
+        - button "Toggle theme" [ref=e36]:
+          - img [ref=e37]
+        - button "J John John@test.com" [ref=e40]:
+          - generic [ref=e41]: J
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: John
+            - paragraph [ref=e44]: John@test.com
+    - main [ref=e13]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "猫猫仙人" [level=1] [ref=e95]
+            - paragraph [ref=e96]: 每句话末尾都会有喵，但个性清冷
+          - generic [ref=e98]:
+            - link "Chat" [ref=e99] [cursor=pointer]:
+              - /url: /agents/cmptjf3u20003lguuckxzb1h8/chat
+              - img [ref=e100]
+              - text: Chat
+            - button "Delete" [ref=e102]:
+              - img [ref=e103]
+              - text: Delete
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - heading "Basic Information" [level=2] [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: Agent Name
+                - textbox "Agent Name" [ref=e116]:
+                  - /placeholder: e.g., Research Assistant
+                  - text: 猫猫仙人
+              - generic [ref=e117]:
+                - generic [ref=e118]: Description (optional)
+                - textbox "Description (optional)" [ref=e119]:
+                  - /placeholder: What does this agent do?
+                  - text: 每句话末尾都会有喵，但个性清冷
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - heading "System Prompt" [level=2] [ref=e122]
+              - paragraph [ref=e123]: Define the agent's personality, behavior, and knowledge
+            - textbox [ref=e124]: You are a helpful AI assistant.
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - heading "Model Configuration" [level=2] [ref=e127]
+              - paragraph [ref=e128]: Choose the AI model and adjust parameters
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - generic [ref=e131]: Provider
+                - combobox [ref=e132]:
+                  - option "Qwen (Alibaba Cloud)" [selected]
+                  - option "DeepSeek (via Anthropic)"
+                  - option "OpenAI"
+                  - option "Anthropic"
+                  - option "Google"
+                  - option "Groq"
+              - generic [ref=e133]:
+                - generic [ref=e134]: Model
+                - combobox [ref=e135]:
+                  - option "qwen3.7-max" [selected]
+                  - option "qwen3.7-max-preview"
+                  - option "qwen3-max"
+              - generic [ref=e136]:
+                - generic [ref=e137]: "Temperature: 0.7"
+                - slider [ref=e138]: "0.7"
+                - generic [ref=e139]:
+                  - generic [ref=e140]: Precise
+                  - generic [ref=e141]: Creative
+              - generic [ref=e142]:
+                - generic [ref=e143]: Max Tokens
+                - combobox [ref=e144]:
+                  - option "2,048"
+                  - option "4,096" [selected]
+                  - option "8,192"
+                  - option "16,384"
+                  - option "32,768"
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Tools" [level=2] [ref=e147]
+              - paragraph [ref=e148]: Enable tools for the agent to use
+            - generic [ref=e149]:
+              - button "Calculator Perform mathematical calculations. Supports basic arithmetic, trigonometry, logarithms, and more." [ref=e150]:
+                - checkbox [checked] [ref=e151]
+                - generic [ref=e152]:
+                  - paragraph [ref=e153]: Calculator
+                  - paragraph [ref=e154]: Perform mathematical calculations. Supports basic arithmetic, trigonometry, logarithms, and more.
+              - button "Web Search Search the web for current information. Use this when you need to find recent news, data, or facts." [ref=e155]:
+                - checkbox [checked] [ref=e156]
+                - generic [ref=e157]:
+                  - paragraph [ref=e158]: Web Search
+                  - paragraph [ref=e159]: Search the web for current information. Use this when you need to find recent news, data, or facts.
+          - button "Save Changes" [ref=e161]:
+            - img [ref=e162]
+            - text: Save Changes
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]:
+    - img [ref=e32]
+  - alert [ref=e91]

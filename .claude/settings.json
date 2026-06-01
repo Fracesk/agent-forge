@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "code-review": { "enabled": true },
+    "code-simplifier": { "enabled": true },
+    "frontend-design": { "enabled": true },
+    "playwright": { "enabled": true }
+  }
+}

@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img [ref=e7]
+        - generic [ref=e8]:
+          - img [ref=e9]
+          - generic [ref=e11]: Search agents, tasks...
+          - generic [ref=e12]: ⌘K
+    - main [ref=e13]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - heading "Agents" [level=1] [ref=e18]
+            - paragraph [ref=e19]: Create and manage your AI agents
+          - link "New Agent" [ref=e21] [cursor=pointer]:
+            - /url: /agents/new
+            - img [ref=e22]
+            - text: New Agent
+        - img [ref=e24]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e31] [cursor=pointer]:
+    - img [ref=e32]

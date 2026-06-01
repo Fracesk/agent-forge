@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Toggle menu" [ref=e6]:
+          - img [ref=e7]
+        - generic [ref=e8]:
+          - img [ref=e9]
+          - generic [ref=e11]: Search agents, tasks...
+          - generic [ref=e12]: ⌘K
+      - button "Toggle theme" [ref=e14]:
+        - img [ref=e15]
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - heading "Agents" [level=1] [ref=e22]
+            - paragraph [ref=e23]: Create and manage your AI agents
+          - link "New Agent" [ref=e25] [cursor=pointer]:
+            - /url: /agents/new
+            - img [ref=e26]
+            - text: New Agent
+        - img [ref=e28]
+  - region "Notifications alt+T"
+  - alert [ref=e30]

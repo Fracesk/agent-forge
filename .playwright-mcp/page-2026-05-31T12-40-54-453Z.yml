@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - button "Toggle menu" [ref=e6]:
+        - img [ref=e7]
+      - generic [ref=e30]:
+        - button "Toggle theme" [ref=e31]:
+          - img [ref=e32]
+        - button "J" [ref=e35]:
+          - generic [ref=e36]: J
+    - main [ref=e8]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - heading "猫猫仙人" [level=1] [ref=e132]
+            - paragraph [ref=e133]: 每句话末尾都会有喵，但个性清冷
+          - generic [ref=e135]:
+            - link "Chat" [ref=e136] [cursor=pointer]:
+              - /url: /agents/cmptjf3u20003lguuckxzb1h8/chat
+              - img [ref=e137]
+              - text: Chat
+            - link "Memory" [ref=e139] [cursor=pointer]:
+              - /url: /agents/cmptjf3u20003lguuckxzb1h8/memory
+              - img [ref=e140]
+              - text: Memory
+            - button "Delete" [ref=e148]:
+              - img [ref=e149]
+              - text: Delete
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img [ref=e155]
+              - heading "Basic Information" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: Agent Name
+                - textbox "Agent Name" [ref=e162]:
+                  - /placeholder: e.g., Research Assistant
+                  - text: 猫猫仙人
+              - generic [ref=e163]:
+                - generic [ref=e164]: Description (optional)
+                - textbox "Description (optional)" [ref=e165]:
+                  - /placeholder: What does this agent do?
+                  - text: 每句话末尾都会有喵，但个性清冷
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - heading "System Prompt" [level=2] [ref=e168]
+              - paragraph [ref=e169]: Define the agent's personality, behavior, and knowledge
+            - textbox [ref=e170]: You are a helpful AI assistant.
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - heading "Model Configuration" [level=2] [ref=e173]
+              - paragraph [ref=e174]: Choose the AI model and adjust parameters
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: Provider
+                - combobox [ref=e178]:
+                  - option "Qwen (Alibaba Cloud)" [selected]
+                  - option "DeepSeek (via Anthropic)"
+                  - option "OpenAI"
+                  - option "Anthropic"
+                  - option "Google"
+                  - option "Groq"
+              - generic [ref=e179]:
+                - generic [ref=e180]: Model
+                - combobox [ref=e181]:
+                  - option "qwen3.7-max" [selected]
+                  - option "qwen3.7-max-preview"
+                  - option "qwen3-max"
+              - generic [ref=e182]:
+                - generic [ref=e183]: "Temperature: 0.7"
+                - slider [ref=e184]: "0.7"
+                - generic [ref=e185]:
+                  - generic [ref=e186]: Precise
+                  - generic [ref=e187]: Creative
+              - generic [ref=e188]:
+                - generic [ref=e189]: Max Tokens
+                - combobox [ref=e190]:
+                  - option "2,048"
+                  - option "4,096" [selected]
+                  - option "8,192"
+                  - option "16,384"
+                  - option "32,768"
+          - button "Save Changes" [ref=e192]:
+            - img [ref=e193]
+            - text: Save Changes
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e26] [cursor=pointer]:
+    - img [ref=e27]
+  - alert [ref=e128]

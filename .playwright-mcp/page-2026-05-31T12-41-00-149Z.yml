@@ -1,0 +1,90 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - navigation [ref=e202]:
+          - button "previous" [disabled] [ref=e203]:
+            - img "previous" [ref=e204]
+          - generic [ref=e206]:
+            - generic [ref=e207]: 1/
+            - text: "1"
+          - button "next" [disabled] [ref=e208]:
+            - img "next" [ref=e209]
+        - generic [ref=e212]:
+          - img [ref=e213]
+          - generic "Latest available version is detected (16.2.6)." [ref=e215]: Next.js 16.2.6
+          - generic [ref=e216]: Turbopack
+      - dialog "Runtime Error" [ref=e218]:
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - generic [ref=e225]: Runtime Error
+              - generic [ref=e226]:
+                - button "Copy Error Info" [ref=e227] [cursor=pointer]:
+                  - img [ref=e228]
+                - button "No related documentation found" [disabled] [ref=e230]:
+                  - img [ref=e231]
+                - button "Attach Node.js inspector" [ref=e233] [cursor=pointer]:
+                  - img [ref=e234]
+            - generic [ref=e243]: "Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: <Brain />. Did you accidentally export a JSX literal instead of a component? Check the render method of `EmptyState`."
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - paragraph [ref=e247]:
+                - img [ref=e249]
+                - generic [ref=e252]: src/components/shared/empty-state.tsx (27:9) @ EmptyState
+                - button "Open in editor" [ref=e253] [cursor=pointer]:
+                  - img [ref=e255]
+              - generic [ref=e258]:
+                - generic [ref=e259]: 25 | >
+                - generic [ref=e260]: 26 | <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-muted">
+                - generic [ref=e261]: "> 27 | <Icon className=\"h-6 w-6 text-muted-foreground\" />"
+                - generic [ref=e262]: "| ^"
+                - generic [ref=e263]: 28 | </div>
+                - generic [ref=e264]: "29 | <h3 className=\"text-lg font-semibold\">{title}</h3>"
+                - generic [ref=e265]: 30 | <p className="mt-1 max-w-sm text-sm text-muted-foreground">
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - paragraph [ref=e268]:
+                  - text: Call Stack
+                  - generic [ref=e269]: "19"
+                - button "Show 16 ignore-listed frame(s)" [ref=e270] [cursor=pointer]:
+                  - text: Show 16 ignore-listed frame(s)
+                  - img [ref=e271]
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - text: EmptyState
+                  - button "Open EmptyState in editor" [ref=e275] [cursor=pointer]:
+                    - img [ref=e276]
+                - text: src/components/shared/empty-state.tsx (27:9)
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - text: MemoryList
+                  - button "Open MemoryList in editor" [ref=e280] [cursor=pointer]:
+                    - img [ref=e281]
+                - text: src/components/agents/memory-list.tsx (123:9)
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - text: AgentMemoryPage
+                  - button "Open AgentMemoryPage in editor" [ref=e285] [cursor=pointer]:
+                    - img [ref=e286]
+                - text: src/app/(dashboard)/agents/[agentId]/memory/page.tsx (53:7)
+        - generic [ref=e288]: "1"
+        - generic [ref=e289]: "2"
+    - generic [ref=e25] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e26]:
+        - img [ref=e27]
+      - generic [ref=e290]:
+        - button "Open issues overlay" [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e293]: "0"
+            - generic [ref=e294]: "1"
+          - generic [ref=e295]: Issue
+        - button "Collapse issues badge" [ref=e296]:
+          - img [ref=e297]
+  - generic [ref=e300]:
+    - img [ref=e301]
+    - heading "This page couldn’t load" [level=1] [ref=e303]
+    - paragraph [ref=e304]: Reload to try again, or go back.
+    - generic [ref=e305]:
+      - button "Reload" [ref=e307] [cursor=pointer]
+      - button "Back" [ref=e308] [cursor=pointer]

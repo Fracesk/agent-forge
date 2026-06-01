@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link "AgentForge AI Platform" [ref=e6] [cursor=pointer]:
+          - /url: /agents
+          - img [ref=e8]
+          - generic [ref=e12]:
+            - text: AgentForge
+            - paragraph [ref=e13]: AI Platform
+        - button "Collapse sidebar" [ref=e14]:
+          - img [ref=e15]
+      - navigation [ref=e18]:
+        - link "Agents" [ref=e19] [cursor=pointer]:
+          - /url: /agents
+          - img [ref=e21]
+          - generic [ref=e24]: Agents
+        - link "Conversations" [ref=e27] [cursor=pointer]:
+          - /url: /conversations
+          - img [ref=e28]
+          - generic [ref=e30]: Conversations
+        - link "Collaborations" [ref=e31] [cursor=pointer]:
+          - /url: /collaborations
+          - img [ref=e32]
+          - generic [ref=e36]: Collaborations
+        - link "Projects" [ref=e37] [cursor=pointer]:
+          - /url: /projects
+          - img [ref=e38]
+          - generic [ref=e43]: Projects
+        - link "Tasks" [ref=e44] [cursor=pointer]:
+          - /url: /tasks
+          - img [ref=e45]
+          - generic [ref=e48]: Tasks
+        - link "Settings" [ref=e49] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e50]
+          - generic [ref=e53]: Settings
+    - generic [ref=e54]:
+      - banner [ref=e55]:
+        - generic [ref=e57]:
+          - img [ref=e58]
+          - generic [ref=e60]: Search agents, tasks...
+          - generic [ref=e61]: ⌘K
+        - generic [ref=e62]:
+          - button "Toggle theme" [ref=e63]:
+            - img [ref=e64]
+          - button "J John John@test.com" [ref=e67]:
+            - generic [ref=e68]: J
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: John
+              - paragraph [ref=e71]: John@test.com
+      - main [ref=e72]:
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - heading "Conversations" [level=2] [ref=e78]
+              - button [ref=e79]:
+                - img [ref=e80]
+            - img [ref=e83]
+          - generic [ref=e85]:
+            - generic [ref=e87]:
+              - link [ref=e88] [cursor=pointer]:
+                - /url: /agents/cmptjf3u20003lguuckxzb1h8
+                - img [ref=e89]
+              - generic [ref=e91]:
+                - heading "猫猫仙人" [level=2] [ref=e92]
+                - paragraph [ref=e93]: qwen3.7-max
+            - generic [ref=e94]:
+              - generic [ref=e96]:
+                - img [ref=e98]
+                - heading "Start a conversation" [level=3] [ref=e100]
+                - paragraph [ref=e101]: Send a message to begin chatting with the AI agent.
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - textbox "Send a message to your agent..." [ref=e105]
+                  - button "Send message" [disabled] [ref=e106]:
+                    - img [ref=e107]
+                - paragraph [ref=e109]: Agents may make mistakes. Verify important information.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e115] [cursor=pointer]:
+    - img [ref=e116]
+  - alert [ref=e119]
