@@ -11,3 +11,5 @@ public/screenshots/
 *.tsbuildinfo
 .playwright-mcp/
 .claude/
+.env
+.env.*
