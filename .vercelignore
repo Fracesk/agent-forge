@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+*.md
+test-results
+tests
+docs
+scripts
+public/screenshots
+.vercel
+tsconfig.tsbuildinfo
+pnpm-lock.yaml
